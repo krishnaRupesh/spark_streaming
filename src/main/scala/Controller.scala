@@ -9,6 +9,9 @@ object Controller extends App{
   val conf = new SparkConf().setMaster("local[2]").setAppName("NetworkWordCount").set("logs","error")
   val ssc = new StreamingContext(conf, Seconds(10))
 
+  val sc = ssc.sparkContext
+
+  sc.setLogLevel("ERROR")
 
   val lines = ssc.socketTextStream("localhost", 4444)
 
