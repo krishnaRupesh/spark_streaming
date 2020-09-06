@@ -3,7 +3,7 @@ import org.apache.spark.streaming._
 import org.apache.spark.streaming.StreamingContext._
 
 
-object Controller extends App{
+object SocketStreaming extends App{
 
 
   val conf = new SparkConf().setMaster("local[2]").setAppName("NetworkWordCount").set("logs","error")
