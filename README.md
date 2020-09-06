@@ -27,7 +27,7 @@ mainly there are two dependency jars.
 
 twitter4j-stream -  to set streaming object configuration.
 
-spark-streaming-twitter - to incorporate twitter streaming data to spark. latest version is available at org.apache.bahir
+spark-streaming-twitter - to incorporate twitter streaming data to spark. latest version is available at org.apache.bahir [https://github.com/apache/bahir/tree/master/streaming-twitter]
 
 code source : https://github.com/dgadiraju/code/blob/a01c909e382ae7da5077486536d58b677c24469f/simple-spark-project/src/main/java/TwitterPopularTags.scala
 
