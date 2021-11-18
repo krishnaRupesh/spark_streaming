@@ -39,4 +39,7 @@ spark-submit --class TwitterPopularTags C:\Users\KRISHNA\IdeaProjects\spark_stre
 ###  twitter api setup. 
 
 https://youtu.be/1GixYso8Az4
+  
+  
+##  In future we have to use delta file formets to enable CRUD operations on data 
 
